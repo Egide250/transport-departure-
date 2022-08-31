@@ -1,0 +1,81 @@
+
+#contact {
+
+}
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 0 0 24px 0;
+    width: 100%;
+}
+.address {
+
+}
+.address p {
+  margin-bottom: 20px;
+  font-size: 13px;
+  line-height: 22px;
+  color: #666;
+}
+#contact .form-group {
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    padding: 80px 100px 55px;
+    width: 650px;
+    box-shadow: 0 4px 40px  rgba(0, 0, 0, 0.2);
+}
+.input-field .form-control {
+    height: 38px;
+    margin: 0 auto;
+    border-radius: 0px;
+    border: 1px solid #fff;
+    box-shadow: none;
+    background: #fff;
+    border: none;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    border-radius: 0;
+}
+.btn-send {
+    line-height: 48px;
+    border: 2px solid #4b92dc;
+    background: #4b92dc;
+    color: #fff;
+    width: 100%;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 0;
+    margin-top: 10px;
+}
+
+.input-field label {
+    color: rgba(237, 28, 36, 0.7);
+} 
+.form-group .input-field + .input-field {
+    margin-top: 20px;
+}
+.input-field textarea.form-control {
+    height: 160px;
+    margin: 0 auto;
+    box-shadow: none;
+}
+.form-group {
+    margin-top: 20px;
+}
+.form-group .btn-submit {
+    border: 0 none;
+    border-radius: 0;
+    color: #fff;
+    padding:10px 20px;
+    font-size: 15px;
+    background: -webkit-gradient(linear, right top, right bottom, color-stop(0%,#4b92dc), color-stop(100%,#41aba0));
+}
+#contact .block .btn span {
+    padding-left: 23px;
+
+}
