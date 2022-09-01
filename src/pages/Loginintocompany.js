@@ -5,7 +5,7 @@ import '../layout/user.css'
 import { FaFacebook, FaGoogle, FaTwitter } from 'react-icons/fa'
 
 
-export default function Login() {
+export default function loginCompany() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const navigate = useNavigate();

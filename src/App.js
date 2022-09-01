@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home'
 import Login from './pages/Login'
+import Loginintocompany from './pages/Loginintocompany'
 import Register from './pages/Register'
 import Landing from './pages/dashboard1/components/Landing'
 import Newcompany from './pages/dashboard1/components/Newcompany'
@@ -23,6 +24,7 @@ export default function App() {
         <Route path="/" >
           <Route index element={<Home />} />
           <Route path="login" element={<Login />} />
+          <Route path="loginintocompany" element={<Loginintocompany />} />
           <Route path="register" element={<Register />} />
           <Route path='superadmin' element={<Landing />} />  
           <Route path="newcompany" element={<Newcompany />} />

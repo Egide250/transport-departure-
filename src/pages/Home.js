@@ -47,7 +47,7 @@ export default function Home() {
                       Agent
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item href="/logintocompany">
+                    <NavDropdown.Item href="/loginintocompany">
                       Company
                     </NavDropdown.Item>
                     <NavDropdown.Item href="/logintoother">Other</NavDropdown.Item>
